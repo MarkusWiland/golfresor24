@@ -46,7 +46,7 @@ export default function HeroSection() {
               <Button
                 key={trip.slug}
                 onClick={() => {
-                  router.push(`/resor/${trip.slug}`)
+                  router.push(`/golfresor/${trip.slug}`)
                   setSearch('')
                 }}
                 className="w-full text-left px-5 py-3 text-foreground hover:bg-muted transition-colors"
