@@ -71,47 +71,47 @@
 
 :root {
   /* === Base === */
-  --background: 120 20% 94%; /* Ljus grön/beige bakgrund (fairway-ton) */
-  --foreground: 120 15% 15%; /* Mörk olivgrön text */
+  --background: 90 30% 94%; /* Ljus golfbeige */
+  --foreground: 120 15% 10%; /* Djup mörkgrön text */
 
   /* === Surfaces === */
-  --hero-background: 120 20% 25%; /* Mörkare grön för hero */
+  --hero-background: 125 20% 22%; /* Mörk grön (hero) */
   --card: 0 0% 100%; /* Vit kortbakgrund */
-  --card-foreground: 120 15% 15%; /* Mörk olivtext på kort */
+  --card-foreground: 120 12% 18%; /* Djup grön text */
 
-  --popover: 120 20% 98%;
-  --popover-foreground: 120 15% 20%;
+  --popover: 90 20% 98%;
+  --popover-foreground: 120 10% 15%;
 
   /* === Primary CTA (Pris, knappar, ikoner) === */
-  --primary: 120 40% 35%; /* Klassisk djup golfgrön */
+  --primary: 135 40% 30%; /* Klassisk skogsgrön */
   --primary-foreground: 0 0% 100%; /* Vit text på grön */
 
   /* === Secondary (t.ex. badge, neutrala ytor) === */
-  --secondary: 90 15% 85%; /* Ljus sandbeige */
-  --secondary-foreground: 120 15% 20%;
+  --secondary: 42 30% 85%; /* Beige/sand med värme */
+  --secondary-foreground: 120 10% 20%;
 
   /* === Accent (för highlights, hover) === */
-  --accent: 45 100% 51%; /* Guld för elegans */
-  --accent-foreground: 0 0% 10%; /* Nästan svart text */
+  --accent: 45 100% 48%; /* Guld (för elegans & lyxkänsla) */
+  --accent-foreground: 0 0% 12%;
 
   /* === Muted (metadata, hjälptext etc.) === */
   --muted: 120 10% 80%; /* Ljus grågrön */
-  --muted-foreground: 120 5% 35%; /* Dämpad text */
+  --muted-foreground: 120 5% 35%;
 
   /* === Border / Inputs === */
-  --border: 120 10% 70%;
-  --input: 120 10% 70%;
-  --ring: 120 40% 35%; /* Samma som primary */
+  --border: 120 5% 70%;
+  --input: 120 10% 68%;
+  --ring: 135 40% 30%;
 
-  /* === Status colors === */
+  /* === Status === */
   --destructive: 0 75% 55%;
   --destructive-foreground: 0 0% 100%;
 
-  --success: 140 50% 45%;
+  --success: 140 50% 40%;
   --success-foreground: 140 100% 98%;
 
   --warning: 40 100% 55%;
-  --warning-foreground: 40 100% 10%;
+  --warning-foreground: 40 100% 12%;
 
   /* === Radii === */
   --radius: 0.75rem;

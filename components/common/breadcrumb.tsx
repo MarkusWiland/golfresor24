@@ -44,7 +44,7 @@ export default function DynamicBreadcrumb() {
   })
 
   return (
-    <Breadcrumb>
+    <Breadcrumb className="container mx-auto">
       <BreadcrumbList>
         <BreadcrumbItem>
           <BreadcrumbLink

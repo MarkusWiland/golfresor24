@@ -28,8 +28,8 @@ export default function MainLayout({
   children: React.ReactNode
 }>) {
   return (
-    <div className="container mx-auto">
-      <main className="py-6">
+    <div className="">
+      <main className="">
         <div>
           <DynamicBreadcrumb />
         </div>
