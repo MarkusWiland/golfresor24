@@ -15,6 +15,7 @@ type GolfTrip = {
   date: string
   price: number
   image: string
+  continent: string // ✅ Lägg till denna
   description?: string
 }
 
