@@ -9,7 +9,11 @@ export default function GolfList({ trips }: { trips: any[] }) {
   return (
     <section className="space-y-6">
       {trips.map((trip) => (
-        <Link key={trip.slug} href={`/resor/${trip.slug}`} className="block">
+        <Link
+          key={trip.slug}
+          href={`/golfresor/${trip.slug}`}
+          className="block"
+        >
           <GolfCard {...trip} />
         </Link>
       ))}
