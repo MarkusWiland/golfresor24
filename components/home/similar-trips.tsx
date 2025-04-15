@@ -29,7 +29,7 @@ export default function SimilarTrips({ currentSlug, currentContinent }: Props) {
         {similar.map((trip) => (
           <Link
             key={trip.slug}
-            href={`/resor/${trip.slug}`}
+            href={`/golfresor/${trip.slug}`}
             className="group bg-card border border-border rounded-xl p-5 shadow-sm hover:shadow-md transition"
           >
             <h3 className="text-lg font-bold text-[hsl(var(--foreground))] mb-1">

@@ -39,7 +39,7 @@ export default function CalendarPreview() {
                 {trips.map((trip) => (
                   <li key={trip.slug}>
                     <Link
-                      href={`/resor/${trip.slug}`}
+                      href={`/golfresor/${trip.slug}`}
                       className="group block bg-card border border-border rounded-lg p-4 hover:shadow-md transition"
                     >
                       <div className="flex items-center gap-2 text-sm text-muted-foreground mb-1">

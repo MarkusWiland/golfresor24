@@ -23,7 +23,7 @@ export default function PopularCities() {
           {cities.map((city) => (
             <Link
               key={city.slug}
-              href={`/stad/${city.slug}`} // ändra om du filtrerar istället
+              href={`/destinationer/${city.slug}`} // ändra om du filtrerar istället
               className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border bg-card hover:bg-muted transition text-sm font-medium text-[hsl(var(--foreground))]"
             >
               <span className="text-lg">{city.flag}</span>

@@ -39,7 +39,7 @@ export default function UpcomingTournaments() {
             return (
               <Link
                 key={trip.slug}
-                href={`/resor/${trip.slug}`}
+                href={`/golfresor/${trip.slug}`}
                 className="group bg-card border border-border rounded-xl p-5 shadow-sm hover:shadow-md transition flex flex-col justify-between"
               >
                 <div className="text-sm text-muted-foreground flex items-center gap-2 mb-2">
