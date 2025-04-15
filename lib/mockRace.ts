@@ -71,4 +71,37 @@ export const mockGolfTrips = [
     priceGreenFeeHotel: 3695,
     priceFullPackage: 8195,
   },
-]
+].map((trip) => ({
+  ...trip,
+  offers: generateMockOffers(trip),
+}))
+function generateMockOffers(trip: {
+  slug: string
+  priceFullPackage: number
+  priceGreenFeeHotel: number
+  priceGreenFeeOnly: number
+}) {
+  return [
+    {
+      id: `${trip.slug}-full`,
+      provider: 'TravelBird',
+      price: trip.priceFullPackage,
+      url: `https://example.com/${trip.slug}/travelbird`,
+      description: 'Fullt paket inkl. hotell, flyg & greenfee',
+    },
+    {
+      id: `${trip.slug}-hotel`,
+      provider: 'GolfStore',
+      price: trip.priceGreenFeeHotel,
+      url: `https://example.com/${trip.slug}/golfstore`,
+      description: 'Hotell + greenfee',
+    },
+    {
+      id: `${trip.slug}-greenfee`,
+      provider: 'GreenTime',
+      price: trip.priceGreenFeeOnly,
+      url: `https://example.com/${trip.slug}/greentime`,
+      description: 'Endast greenfee',
+    },
+  ]
+}
